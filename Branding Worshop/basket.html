@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <!-- HEADER MENU -->
+         <div class="header"></div>
+         <div class="main">
+            <div class="main__container container">
+               <section class="basket">
+                  <div class="basket__container container">
+                     <h2 class="basket__title title">Корзина</h2>
+                     <div class="basket__list">
+                        <div class="basket__item">
+                           <img src="img/shirtyell.png" class="product-img" alt="shirt" />
+                        </div>
+                        <div class="basket__item">
+                           <h3 class="basket__subtitle product-title">Желтое худи</h3>
+                           <div class="basket__text text">худи, одежда</div>
+                        </div>
+                        <div class="basket__item">
+                           <div class="basket__block">
+                              <div class="basket__box">
+                                 <label class="basket__label" for="size"
+                                    >Размер:</label
+                                 >
+                                 <!-- <div class="third__item">
+                                    <img class="third__img product-img" src="img/shirtwhite.png" alt="image" >
+                                    <div class="third__subtext">
+                                      <a href="" target="_blank" class="product-title"> Футболка Белая</a></div>
+                                    <div class="third__count price" >230₴</div>
+                                    <div class="third__cart">
+                                    <i class="bx bx-shopping-bag add-cart"></i></div>
+                                 </div> -->
+                                 <select class="basket__details">
+                                    <option>M</option>
+                                    <option>S</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                                    <option>XXL</option>
+                                 </select>
+                              </div>
+                              <div class="basket__box">
+                                 <label for="color">Цвет:</label>
+                                 <select class="basket__details">
+                                    <option>yellow</option>
+                                    <option>white</option>
+                                    <option>blue</option>
+                                    <option>red</option>
+                                    <option>green</option>
+                                    <option>grey</option>
+                                    <option>black</option>
+                                 </select>
+                              </div>
+                              <div class="basket__box">
+                                 <label for="Quantity">Количество:</label>
+                                 <select class="basket__details">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="basket__item">
+                           <span class="basket__count" style="color: #ffc700"
+                              >1199.00 грн</span
+                           >
+                        </div>
+                        <div class="basket__item">
+                           <p class="basket__x">X</p>
+                        </div>
+                     </div>
+                     <div class="basket__list">
+                        <div class="basket__item">
+                           <img src="img/shirtyell.png" alt="shirt" />
+                        </div>
+                        <div class="basket__item">
+                           <h3 class="basket__subtitle">Желтое худи</h3>
+                           <div class="basket__text text">худи, одежда</div>
+                        </div>
+                        <div class="basket__item">
+                           <div class="basket__block">
+                              <div class="basket__box">
+                                 <label class="basket__label" for="size"
+                                    >Размер:</label
+                                 >
+                                 <select class="basket__details">
+                                    <option>M</option>
+                                    <option>S</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                                    <option>XXL</option>
+                                 </select>
+                              </div>
+                              <div class="basket__box">
+                                 <label for="color">Цвет:</label>
+                                 <select class="basket__details">
+                                    <option>yellow</option>
+                                    <option>white</option>
+                                    <option>blue</option>
+                                    <option>red</option>
+                                    <option>green</option>
+                                    <option>grey</option>
+                                    <option>black</option>
+                                 </select>
+                              </div>
+                              <div class="basket__box">
+                                 <label for="Quantity">Количество:</label>
+                                 <select class="basket__details">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="basket__item">
+                           <span class="basket__count" style="color: #ffc700"
+                              >1199.00 грн</span
+                           >
+                        </div>
+                        <div class="basket__item">
+                           <p class="basket__x">X</p>
+                        </div>
+                     </div>
+                     <div class="basket__list">
+                        <div class="basket__item">
+                           <img src="img/shirtyell.png" alt="shirt" />
+                        </div>
+                        <div class="basket__item">
+                           <h3 class="basket__subtitle">Желтое худи</h3>
+                           <div class="basket__text text">худи, одежда</div>
+                        </div>
+                        <div class="basket__item">
+                           <div class="basket__block">
+                              <div class="basket__box">
+                                 <label class="basket__label" for="size"
+                                    >Размер:</label
+                                 >
+                                 <select class="basket__details">
+                                    <option>M</option>
+                                    <option>S</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                                    <option>XXL</option>
+                                 </select>
+                              </div>
+                              <div class="basket__box">
+                                 <label for="color">Цвет:</label>
+                                 <select class="basket__details">
+                                    <option>yellow</option>
+                                    <option>white</option>
+                                    <option>blue</option>
+                                    <option>red</option>
+                                    <option>green</option>
+                                    <option>grey</option>
+                                    <option>black</option>
+                                 </select>
+                              </div>
+                              <div class="basket__box">
+                                 <label for="Quantity">Количество:</label>
+                                 <select class="basket__details">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="basket__item">
+                           <span class="basket__count" style="color: #ffc700"
+                              >1199.00 грн</span
+                           >
+                        </div>
+                        <div class="basket__item">
+                           <p class="basket__x">X</p>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="basketSales">
+                  <div class="basketSales__container container">
+                     <h2 class="basketSales__title title">
+                        <a href="login.html" target="_blank"> Оформить заказ</a>
+                     </h2>
+                     <div class="basketSales__list">
+                        <div class="basketSales__item">
+                           <input
+                              class="basketSales__input"
+                              type="text"
+                              name="text"
+                              placeholder="Ваше имя"
+                           /><br />
+                           <input
+                              class="basketSales__input"
+                              type="email"
+                              name="email"
+                              placeholder="Email"
+                           /><br />
+                           <input
+                              class="basketSales__input"
+                              type="number"
+                              name="number"
+                              placeholder="Телефон"
+                           /><br />
+                           <input
+                              class="basketSales__input"
+                              type="country"
+                              name="country"
+                              placeholder="Город"
+                           /><br />
+                           <input
+                              class="basketSales__input"
+                              type="text"
+                              name="text"
+                              placeholder="Отделение"
+                           /><br />
+                        </div>
+                        <div class="basketSales__item">
+                           <div class="basketSales__item_group">
+                              <div class="basketSales__box">
+                                 <div class="basketSales__subtitle">
+                                    Доставка
+                                 </div>
+                                 <div class="basketSales__content">
+                                 <div class="basketSales__cub"></div>
+                                 <a
+                                    class="basketSales__call"
+                                    href="##"
+                                    target="_blank"
+                                    >Самовывоз</a
+                                 >
+                              </div>
+                              <div class="basketSales__content">
+                                 <img
+                                    class="basketSales__images"
+                                    src="img/birdie.svg"
+                                    alt="image"
+                                 />
+                                 <a
+                                    class="basketSales__mail"
+                                    href="##"
+                                    target="_blank"
+                                    >Новая почта</a
+                                 ></div>
+                              </div>
+                              <div class="basketSales__box">
+                                 <div class="basketSales__subtitle">Оплата</div>
+                                 <div class="basketSales__content">
+                                 <div class="basketSales__cub"></div>
+                                 <a
+                                    class="basketSales__call"
+                                    href="##"
+                                    target="_blank"
+                                    >Наложеный платёж</a
+                                 ></div>
+                                 <div class="basketSales__content">
+                                 <img
+                                    class="basketSales__images"
+                                    src="img/birdie.svg"
+                                    alt="image"
+                                 />
+                                 <a
+                                    class="basketSales__mail"
+                                    href="##"
+                                    target="_blank"
+                                    >Безналичный</a
+                                 ></div>
+                              </div>
+                           </div>
+                           <span class="basketSales__span">Заказ:</span>
+                           <span class="basketSales__span" style="color: #FFC700; padding-left: 10px;">1100 грн</span><br>
+                           <span class="basketSales__span">Доставка:</span>
+                           <span class="basketSales__span" style="color: #FFC700">50 грн</span><br>
+                           <span class="basketSales__span" style="color: #FFFFFF;font-size: 32px;">Итого:</span>
+                           <span class="basketSales__span" style="color: #FFC700; font-size:24px">1150 грн</span><br>
+                           <div class="basketSales__link">
+                              <a href="login.html" target="_blank">Оформить заказ</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+         <!-- FOOTER -->
+         <footer class="footer"></footer>
+      </div>
+      <script src="js/for.js"></script>
+      <script src="js/Swiper.js"></script>
+      <script src="js/header.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>

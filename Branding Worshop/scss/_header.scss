@@ -1,0 +1,120 @@
+.header-top {
+   width: 100%;
+
+   .header-top__menu {
+      margin-top: 20px;
+   }
+}
+.menu {
+   // .menu__list
+
+   &__list {
+      display: flex;
+      justify-content: center;
+      @media (max-width: 990.98px) {
+         display: none;
+      }
+   }
+   // .menu__item
+
+   &__item {
+      margin: 0px 20px;
+      color: #ffffff;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      &:hover {
+         background-color: #ffffff;
+         padding: 0px 10px 20px 10px;
+         color: black;
+         transform: skewX(-30deg);
+         // font-style: normal;
+      }
+   }
+
+   // .menu__link
+
+   &__link {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: inherit;
+   }
+   &__box {
+      display: flex;
+      justify-content: start;
+   }
+
+   &__mediatext {
+      padding-top: 50px;
+      color: white;
+
+      @media (max-width: 3000px) {
+         display: none;
+      }
+      @media (max-width: 990.98px) {
+         display: block;
+      }
+   }
+
+   // .menu__burger
+
+   &__burger {
+      display: none;
+      width: 30px;
+      height: 18px;
+      position: relative;
+      &::before,
+      &:after {
+         content: '';
+         position: absolute;
+         left: 0;
+         width: 100%;
+         height: 1px;
+         background: rgb(240, 236, 236);
+      }
+      span {
+         position: absolute;
+         left: 0;
+         width: 100%;
+         height: 1px;
+         background: rgb(244, 239, 239);
+         top: 9px;
+      }
+      &::before {
+         top: 0;
+      }
+      &::after {
+         bottom: 0;
+      }
+      @media (max-width: 990.98px) {
+         margin: 20px;
+         display: block;
+      }
+   }
+}
+.menu__box {
+   overflow: hidden;
+   background-color: #333;
+   position: relative;
+}
+
+.menu__box #myLinks {
+   display: none;
+}
+
+.menu__box a {
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   display: block;
+}
+
+.menu__box a.menu__burger {
+   display: block;
+   position: absolute;
+   right: 30px;
+   bottom: 5px;
+}

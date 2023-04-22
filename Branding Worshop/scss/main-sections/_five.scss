@@ -1,0 +1,16 @@
+.five {
+   padding: 250px 0px;
+   // .five__title
+
+   &__title {
+      color: #ffffff;
+   }
+   &__text {
+      margin-bottom: 50px;
+   }
+   &__video {
+      display: flex;
+      justify-content: center;
+      margin: 0px auto;
+   }
+}

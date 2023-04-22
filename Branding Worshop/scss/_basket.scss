@@ -1,0 +1,209 @@
+.basket {
+   background: #000;
+
+   // .basket__container
+
+   &__container {
+   }
+
+   // .basket__title
+
+   &__title {
+      font-size: 36px;
+      text-align: center;
+      margin-top: 70px;
+
+   }
+
+   // .basket__list
+
+   &__list {
+      display: flex;
+      align-items: center;
+   }
+
+   // .basket__item
+
+   &__item {
+      padding: 50px 0px 100px 0px;
+   }
+   &__subtitle {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 39px;
+      color: #ffffff;
+   }
+
+   // .basket__text
+
+   &__text {
+      font-size: 20px;
+   }
+
+   // .basket__block
+
+   &__block {
+      display: flex;
+   }
+
+   // .basket__box
+
+   &__box {
+   }
+
+   // .basket__label
+
+   &__label {
+   }
+
+   // .basket__details
+
+   &__details {
+      background: #ffc700;
+   }
+
+   &__count {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #ffc700;
+   }
+   &__x {
+      border-radius: 50%;
+      background: #f0f0f0;
+      color: black;
+      padding: 10px 10px;
+   }
+}
+
+.basketSales {
+   padding-bottom: 140px;
+   // .basketSales__container
+
+   &__container {
+   }
+
+   // .basketSales__title
+
+   &__title {
+      font-size: 36px;
+      text-align: center;
+      padding-bottom: 70px;
+      a {
+         color: #ffffff;
+      }
+   }
+
+   // .basketSales__list
+
+   &__list {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+   }
+
+   // .basketSales__item
+
+   &__item {
+      // .basketSales__item_group
+
+      &_group {
+         display: flex;
+      }
+   }
+
+   // .basketSales__input
+
+   &__input {
+      background: #111111;
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffc700;
+      padding: 20px 70px;
+      margin: 10px 0px;
+      &::placeholder {
+         color: #ffc700;
+      }
+   }
+
+   // .basketSales__box
+
+   &__box {
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__content {
+      display: flex;
+      margin-bottom: 20px;
+   }
+   // .basketSales__subtitle
+
+   &__subtitle {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      margin: 0px 120px 20px 0px;
+   }
+
+   // .basketSales__call
+
+   &__call {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffc700;
+   }
+
+   // .basketSales__images
+
+   &__images {
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+   }
+
+   // .basketSales__mail
+
+   &__mail {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffc700;
+   }
+   &__cub {
+      border: 1px solid #000;
+      margin-right: 10px;
+      background: #111111;
+      width: 15px;
+      height: 15px;
+   }
+
+   &__span {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #9b9b9b;
+      padding: 50px 20px 50px 0px;
+   }
+
+   // .basketSales__link
+
+   &__link {
+      a {
+         color: #ffc700;
+      }
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      background: #000;
+      border: 1px solid #ffc700;
+      text-align: center;
+      padding: 10px 30px;
+      margin-top: 50px;
+   }
+}

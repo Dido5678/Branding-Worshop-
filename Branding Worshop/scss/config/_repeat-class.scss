@@ -1,0 +1,21 @@
+.container {
+   max-width: 1100px;
+   margin: 0px auto;
+   padding: 0px 15px;
+}
+
+.title {
+   font-weight: 700;
+   @include media-adaptiv-font(72, 30);
+   line-height: 120%;
+   color: #f0f0f0;
+   text-transform: uppercase;
+}
+
+.text {
+   font-family: 'Montserrat Alternates';
+   font-weight: 300;
+   @include media-adaptiv-font(32, 16);
+   line-height: 130%;
+   color: #949494;
+}

@@ -1,0 +1,34 @@
+@import 'config/vars';
+@import 'config/mixin';
+@import 'config/null-style';
+@import 'config/fonts';
+@import 'config/icon-fonts';
+@import 'config/repeat-class';
+@import '_main';
+@import 'main-sections/_first';
+@import 'main-sections/_second';
+@import 'main-sections/_example';
+@import 'main-sections/_third';
+@import 'main-sections/_four';
+@import 'main-sections/_coments';
+@import 'main-sections/_five';
+@import 'main-sections/_six';
+@import '_header';
+@import '_footer';
+@import '_catalog';
+@import '_cardproduct';
+@import '_basket';
+@import '_login';
+
+.wrapper {
+   max-width: $wrapperWidth + px;
+   // max-width: 1440px;
+   background-color: black;
+   display: flex;
+   margin: 0 auto;
+   flex-direction: column;
+   min-height: 100%;
+   position: relative;
+   overflow: hidden;
+   font-family: 'Montserrat', 'Montserrat Alternates', 'Roboto';
+}

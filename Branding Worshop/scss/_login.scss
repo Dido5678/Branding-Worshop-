@@ -1,0 +1,110 @@
+.popup {
+   text-align: center;
+   margin-top: 140px;
+
+   // .popup__container
+
+   &__container {
+      // margin:300px 200px;
+      background-color: #111111;
+      max-width: 420px;
+      height: 540px;
+      margin: 0px auto;
+      padding: 40px 50px;
+   }
+
+   // .popup__content
+
+   &__content {
+   }
+
+   // .popup__form
+
+   &__form {
+   }
+
+   // .popup__form-block
+
+   &__form-block {
+   }
+
+   // .popup__input-title
+
+   &__title {
+      font-size: 32px;
+   }
+
+   &__registration {
+      display: flex;
+      justify-content: center;
+      padding: 30px 0px;
+   }
+   &__cub {
+      border: 1px solid #000;
+      margin-right: 10px;
+      background: #111111;
+      width: 15px;
+      height: 15px;
+   }
+
+   &__remember {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #ffc700;
+   }
+   // .popup__input-subtitle
+
+   &__subtitle {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #ffffff;
+      padding: 30px 0px;
+   }
+
+   // .popup__contect-box
+
+   &__contect-box {
+   }
+
+   // .popup__input
+
+   &__input {
+      background: #111111;
+      font-family: 'Montserrat';
+      font-weight: 400;
+      line-height: 20px;
+      color: #ffc700;
+      padding: 20px 70px;
+      margin: 10px 0px;
+      &::placeholder {
+         color: #ffc700;
+      }
+   }
+
+   // .popup__form-submit
+
+   &__form-submit {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffc700;
+      background: #111111;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 10px 40px;
+   }
+
+   // .popup__input-descr
+
+   &__descr {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      color: #ffffff;
+      padding-top: 20px;
+   }
+}
+.form {
+}

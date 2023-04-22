@@ -1,0 +1,70 @@
+.four {
+   margin-bottom: 220px;
+   text-align: center;
+   // .four__container
+
+   &__container {
+   }
+
+   // .four__text
+
+   &__text {
+      margin-bottom: 80px;
+   }
+
+   // .four__content
+
+   &__content {
+      display: flex;
+      justify-content: center;
+      gap: 120px;
+      margin-bottom: 50px;
+      @media (max-width: 1350px) {
+         gap: 20px;
+      }
+      @media (max-width: 890px) {
+         flex-direction: column;
+      }
+   }
+
+   // .four__item
+
+   &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #101010;
+      padding: 50px 50px;
+      @media (max-width: 1350px) {
+         padding: 0px 0px 0px 0px;
+      }
+   }
+
+   // .four__img
+
+   &__img {
+   }
+
+   // .four__subtitle
+
+   &__subtitle {
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #ffffff;
+      margin-top: auto;
+   }
+
+   // .four__descr
+
+   &__descr {
+      font-family: 'Montserrat Alternates';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #ffc700;
+   }
+}
